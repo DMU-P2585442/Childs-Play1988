@@ -1,0 +1,52 @@
+img{
+  display: block;
+  margin: auto;
+}
+video{
+  display: block;
+  margin: auto;
+}
+p{
+  color: red;
+  font-size: 1em;
+padding: 15px;
+margin: 30px;
+font-size: 1.2em;
+text-align: center;
+}
+p1{
+  color: red;
+  font-size: 1em;
+padding: 15px;
+margin: 30px;
+font-size: 1.2em;
+text-align:right;
+}
+a{
+  color: blue;
+  font-size: 3em;
+
+font-size: 1.2em;
+text-align: center;
+}
+body{
+  height: 100vh;
+  background-image: url("../img1/background.jpg");
+}
+h1{
+  color: red;
+text-align: center;
+}
+h2{
+color: red;
+text-align: center;
+}
+div{
+  width: 50%;
+  float:left
+}
+floatfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
