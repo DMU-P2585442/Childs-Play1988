@@ -1,6 +1,8 @@
 img{
   display: block;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%
 }
 video{
   display: block;
@@ -13,6 +15,15 @@ padding: 15px;
 margin: 30px;
 font-size: 1.2em;
 text-align: center;
+}
+.col{
+  width: 30%;
+  float: left;
+}
+section::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 p1{
   color: red;
